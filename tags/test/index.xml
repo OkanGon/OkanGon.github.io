@@ -1,47 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Test on OkanGon&#39;s site</title>
-    <link>https://okangon.github.io/tags/test/index.xml</link>
-    <description>Recent content in Test on OkanGon&#39;s site</description>
+    <title>Test on Hugo tranquilpeak theme</title>
+    <link>/tags/test/index.xml</link>
+    <description>Recent content in Test on Hugo tranquilpeak theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://okangon.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>日本語のタイトルOK</title>
-      <link>https://okangon.github.io/2017/02/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%ABok/</link>
-      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://okangon.github.io/2017/02/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%ABok/</guid>
-      <description>&lt;p&gt;下の記号までトップページに表示されます。
-&lt;/p&gt;
-
-&lt;!--toc--&gt;
-
-&lt;p&gt;ここからが本文です。&lt;/p&gt;
-
-&lt;h2 id=&#34;注意点&#34;&gt;注意点&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;coverMeta&lt;/code&gt;は、inで&lt;code&gt;coverImage&lt;/code&gt;に文字を埋め込みます&lt;/li&gt;
-&lt;li&gt;B&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;tocも使えるよ&#34;&gt;TOCも使えるよ&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A&lt;/li&gt;
-&lt;li&gt;B&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
+    <atom:link href="/tags/test/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>highlighted code showcase</title>
-      <link>https://okangon.github.io/2015/03/highlighted-code-showcase/</link>
+      <link>/2015/03/highlighted-code-showcase/</link>
       <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2015/03/highlighted-code-showcase/</guid>
+      <guid>/2015/03/highlighted-code-showcase/</guid>
       <description>&lt;p&gt;Tranquilpeak Hugo theme have its own theme to highlight source code. It&amp;rsquo;s based on GitHub theme: simple and elegant. Check out how it sublimate source codes.
 &lt;/p&gt;
 
@@ -1920,10 +1892,10 @@ extension MyClass : Interface {
     
     <item>
       <title>Tags plugins showcase</title>
-      <link>https://okangon.github.io/2014/10/tags-plugins-showcase/</link>
+      <link>/2014/10/tags-plugins-showcase/</link>
       <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2014/10/tags-plugins-showcase/</guid>
+      <guid>/2014/10/tags-plugins-showcase/</guid>
       <description>&lt;p&gt;This post is used to show how tag plugins are displayed. See &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tags&#34;&gt;docs&lt;/a&gt; for more info.
 &lt;/p&gt;
 
