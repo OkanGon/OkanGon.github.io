@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://okangon.github.io/9999/06/welcome-to-tranquilpeak-0.2.2/</loc>
+    <lastmod>9999-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://okangon.github.io/2017/02/%E3%83%86%E3%82%B9%E3%83%88/</loc>
     <lastmod>2017-02-19T00:00:00+00:00</lastmod>
   </url>
@@ -9,11 +14,6 @@
   <url>
     <loc>https://okangon.github.io/2017/02/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB/</loc>
     <lastmod>2017-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://okangon.github.io/2015/06/welcome-to-tranquilpeak-0.2.2/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -102,7 +102,7 @@
   
   <url>
     <loc>https://okangon.github.io/tags/disqus/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <lastmod>9999-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -120,19 +120,19 @@
   
   <url>
     <loc>https://okangon.github.io/tags/google-analytics/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <lastmod>9999-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://okangon.github.io/tags/gravatar/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <lastmod>9999-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://okangon.github.io/tags/hexo-theme/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <lastmod>9999-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -174,7 +174,7 @@
   
   <url>
     <loc>https://okangon.github.io/</loc>
-    <lastmod>2017-02-19T00:00:00+00:00</lastmod>
+    <lastmod>9999-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -186,19 +186,19 @@
   
   <url>
     <loc>https://okangon.github.io/post/</loc>
-    <lastmod>2017-02-19T00:00:00+00:00</lastmod>
+    <lastmod>9999-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://okangon.github.io/categories/releases/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <lastmod>9999-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://okangon.github.io/tags/responsive/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <lastmod>9999-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -233,7 +233,7 @@
   
   <url>
     <loc>https://okangon.github.io/categories/tranquilpeak/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <lastmod>9999-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
