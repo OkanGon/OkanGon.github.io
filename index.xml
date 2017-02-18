@@ -38,6 +38,23 @@
     </item>
     
     <item>
+      <title>日本語のタイトルOK（コロンの後はスペース必要）</title>
+      <link>https://okangon.github.io/2017/02/pe-ji_no_namae/</link>
+      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://okangon.github.io/2017/02/pe-ji_no_namae/</guid>
+      <description>&lt;p&gt;下の記号までトップページに表示されます。
+&lt;/p&gt;
+
+&lt;h1 id=&#34;ここから本文です-とか-の後には空白が必要&#34;&gt;ここから本文です。#とか*の後には空白が必要&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A&lt;/li&gt;
+&lt;li&gt;B&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>Welcome to Tranquilpeak 0.2.2</title>
       <link>https://okangon.github.io/2015/06/welcome-to-tranquilpeak-0.2.2/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
