@@ -22,11 +22,21 @@
     </item>
     
     <item>
+      <title>Image gallery showcase</title>
+      <link>https://okangon.github.io/2017/02/test_image_gallery_showcase/</link>
+      <pubDate>Sun, 19 Feb 2017 19:57:00 +0000</pubDate>
+      
+      <guid>https://okangon.github.io/2017/02/test_image_gallery_showcase/</guid>
+      <description>&lt;p&gt;イメージギャラリーのデモです。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>ニョッキを作ってみました</title>
-      <link>https://okangon.github.io/2017/02/%E3%83%8B%E3%83%A7%E3%83%83%E3%82%AD%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>https://okangon.github.io/2017/02/2017021904/</link>
       <pubDate>Sun, 19 Feb 2017 16:37:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2017/02/%E3%83%8B%E3%83%A7%E3%83%83%E3%82%AD%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>https://okangon.github.io/2017/02/2017021904/</guid>
       <description>&lt;p&gt;今日の夕飯はニョッキです。家で作ってみました。
 &lt;/p&gt;
 
@@ -45,16 +55,12 @@
     
     <item>
       <title>食べに行きたい店</title>
-      <link>https://okangon.github.io/2017/02/%E9%A3%9F%E3%81%B9%E3%81%AB%E8%A1%8C%E3%81%8D%E3%81%9F%E3%81%84%E5%BA%97/</link>
+      <link>https://okangon.github.io/2017/02/tabeniikitai_mise/</link>
       <pubDate>Sun, 19 Feb 2017 10:19:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2017/02/%E9%A3%9F%E3%81%B9%E3%81%AB%E8%A1%8C%E3%81%8D%E3%81%9F%E3%81%84%E5%BA%97/</guid>
+      <guid>https://okangon.github.io/2017/02/tabeniikitai_mise/</guid>
       <description>&lt;p&gt;飲み会で行きたい店。
 &lt;/p&gt;
-
-&lt;!--toc--&gt;
-
-&lt;p&gt;本文はここからです。TOCも使えます。&lt;/p&gt;
 
 &lt;h1 id=&#34;五反田&#34;&gt;五反田&lt;/h1&gt;
 
@@ -73,31 +79,41 @@
     </item>
     
     <item>
-      <title>テスト</title>
-      <link>https://okangon.github.io/2017/02/%E3%83%86%E3%82%B9%E3%83%88/</link>
+      <title>テスト2</title>
+      <link>https://okangon.github.io/2017/02/test02/</link>
       <pubDate>Sun, 19 Feb 2017 02:23:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2017/02/%E3%83%86%E3%82%B9%E3%83%88/</guid>
+      <guid>https://okangon.github.io/2017/02/test02/</guid>
       <description>&lt;p&gt;2個目のテスト
 &lt;/p&gt;
 
 &lt;!--toc--&gt;
 
-&lt;p&gt;テスト、てすと&lt;/p&gt;</description>
+&lt;p&gt;TOC使えます。&lt;/p&gt;
+
+&lt;h1 id=&#34;heading-1&#34;&gt;Heading 1&lt;/h1&gt;
+
+&lt;h2 id=&#34;heading-2&#34;&gt;Heading 2&lt;/h2&gt;
+
+&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3&lt;/h3&gt;
+
+&lt;h4 id=&#34;heading-4&#34;&gt;Heading 4&lt;/h4&gt;
+
+&lt;h5 id=&#34;heading-5&#34;&gt;Heading 5&lt;/h5&gt;
+
+&lt;h6 id=&#34;heading-6&#34;&gt;Heading 6&lt;/h6&gt;</description>
     </item>
     
     <item>
-      <title>日本語のタイトル</title>
-      <link>https://okangon.github.io/2017/02/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB/</link>
+      <title>テスト1</title>
+      <link>https://okangon.github.io/2017/02/test01/</link>
       <pubDate>Sun, 19 Feb 2017 01:49:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2017/02/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB/</guid>
+      <guid>https://okangon.github.io/2017/02/test01/</guid>
       <description>&lt;p&gt;トップページに表示されます。以下の記号まで。
 &lt;/p&gt;
 
-&lt;!--toc--&gt;
-
-&lt;p&gt;本文はここからです。TOCも使えます。&lt;/p&gt;
+&lt;p&gt;本文はここからです。&lt;/p&gt;
 
 &lt;h2 id=&#34;注意する点&#34;&gt;注意する点&lt;/h2&gt;
 
@@ -3163,16 +3179,6 @@ dignissim ultrices libero. Sed imperdiet urna et quam ultrices tincidunt nec ac 
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;em&gt;From &lt;a href=&#34;http://www.richyli.com/tool/loremipsum/&#34;&gt;亂數假文產生器 - Chinese Lorem Ipsum&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Image gallery showcase</title>
-      <link>https://okangon.github.io/2013/02/image-gallery-showcase/</link>
-      <pubDate>Mon, 18 Feb 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://okangon.github.io/2013/02/image-gallery-showcase/</guid>
-      <description>&lt;p&gt;And here is the image gallery!
-&lt;/p&gt;</description>
     </item>
     
   </channel>

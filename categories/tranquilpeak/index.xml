@@ -2089,16 +2089,6 @@ extension MyClass : Interface {
     </item>
     
     <item>
-      <title>Image gallery showcase</title>
-      <link>https://okangon.github.io/2013/02/image-gallery-showcase/</link>
-      <pubDate>Mon, 18 Feb 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://okangon.github.io/2013/02/image-gallery-showcase/</guid>
-      <description>&lt;p&gt;And here is the image gallery!
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>日本語テスト</title>
       <link>https://okangon.github.io/2013/01/japanese-test/</link>
       <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
