@@ -2,77 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://okangon.github.io/9999/06/welcome-to-tranquilpeak-0.2.2/</loc>
+    <loc>https://okangon.github.io/welcome-to-tranquilpeak-0.2.2/</loc>
     <lastmod>9999-06-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2017/02/%E3%83%86%E3%82%B9%E3%83%88/</loc>
-    <lastmod>2017-02-19T00:00:00+00:00</lastmod>
+    <loc>https://okangon.github.io/%E3%83%8B%E3%83%A7%E3%83%83%E3%82%AD%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F/</loc>
+    <lastmod>2017-02-19T16:37:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2017/02/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB/</loc>
-    <lastmod>2017-02-19T00:00:00+00:00</lastmod>
+    <loc>https://okangon.github.io/%E9%A3%9F%E3%81%B9%E3%81%AB%E8%A1%8C%E3%81%8D%E3%81%9F%E3%81%84%E5%BA%97/</loc>
+    <lastmod>2017-02-19T10:19:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2017/02/%E9%A3%9F%E3%81%B9%E3%81%AB%E8%A1%8C%E3%81%8D%E3%81%9F%E3%81%84%E5%BA%97/</loc>
-    <lastmod>2017-02-19T00:00:00+00:00</lastmod>
+    <loc>https://okangon.github.io/%E3%83%86%E3%82%B9%E3%83%88/</loc>
+    <lastmod>2017-02-19T02:23:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2015/05/elements-showcase/</loc>
+    <loc>https://okangon.github.io/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB/</loc>
+    <lastmod>2017-02-19T01:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okangon.github.io/elements-showcase/</loc>
     <lastmod>2015-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2015/05/cover-image-showcase/</loc>
+    <loc>https://okangon.github.io/cover-image-showcase/</loc>
     <lastmod>2015-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2015/03/highlighted-code-showcase/</loc>
+    <loc>https://okangon.github.io/highlighted-code-showcase/</loc>
     <lastmod>2015-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2014/10/tags-plugins-showcase/</loc>
+    <loc>https://okangon.github.io/tags-plugins-showcase/</loc>
     <lastmod>2014-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2014/08/hidden-social-section-showcase/</loc>
+    <loc>https://okangon.github.io/hidden-social-section-showcase/</loc>
     <lastmod>2014-08-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2014/08/hidden-tag-section-showcase/</loc>
+    <loc>https://okangon.github.io/hidden-tag-section-showcase/</loc>
     <lastmod>2014-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2014/08/hidden-pagination-showcase/</loc>
+    <loc>https://okangon.github.io/hidden-pagination-showcase/</loc>
     <lastmod>2014-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2014/08/video-integrations-showcase/</loc>
+    <loc>https://okangon.github.io/video-integrations-showcase/</loc>
     <lastmod>2014-08-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2013/10/chinese-test/</loc>
+    <loc>https://okangon.github.io/chinese-test/</loc>
     <lastmod>2013-10-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2013/02/image-gallery-showcase/</loc>
+    <loc>https://okangon.github.io/image-gallery-showcase/</loc>
     <lastmod>2013-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2013/01/japanese-test/</loc>
+    <loc>https://okangon.github.io/japanese-test/</loc>
     <lastmod>2013-01-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -101,7 +106,13 @@
   
   <url>
     <loc>https://okangon.github.io/categories/demo-page/</loc>
-    <lastmod>2017-02-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-19T10:19:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://okangon.github.io/categories/dinner/</loc>
+    <lastmod>2017-02-19T16:37:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -155,7 +166,7 @@
   
   <url>
     <loc>https://okangon.github.io/categories/hukusu_ok/</loc>
-    <lastmod>2017-02-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-19T10:19:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -220,19 +231,19 @@
   </url>
   
   <url>
-    <loc>https://okangon.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://okangon.github.io/tags/tags/</loc>
     <lastmod>2014-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://okangon.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://okangon.github.io/tags/test/</loc>
-    <lastmod>2017-02-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-19T16:37:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

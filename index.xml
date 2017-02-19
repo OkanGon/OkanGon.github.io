@@ -11,10 +11,10 @@
     
     <item>
       <title>Welcome to Tranquilpeak 0.2.2</title>
-      <link>https://okangon.github.io/9999/06/welcome-to-tranquilpeak-0.2.2/</link>
+      <link>https://okangon.github.io/welcome-to-tranquilpeak-0.2.2/</link>
       <pubDate>Tue, 15 Jun 9999 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/9999/06/welcome-to-tranquilpeak-0.2.2/</guid>
+      <guid>https://okangon.github.io/welcome-to-tranquilpeak-0.2.2/</guid>
       <description>&lt;p&gt;Tranquilpeak is a gorgeous responsive theme for Hugo blog framework. It has many features and integrated services to improve user experience.
 &lt;/p&gt;
 
@@ -201,53 +201,33 @@ git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git
     </item>
     
     <item>
-      <title>テスト</title>
-      <link>https://okangon.github.io/2017/02/%E3%83%86%E3%82%B9%E3%83%88/</link>
-      <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
+      <title>ニョッキを作ってみました</title>
+      <link>https://okangon.github.io/%E3%83%8B%E3%83%A7%E3%83%83%E3%82%AD%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Sun, 19 Feb 2017 16:37:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2017/02/%E3%83%86%E3%82%B9%E3%83%88/</guid>
-      <description>&lt;p&gt;2個目のテスト
+      <guid>https://okangon.github.io/%E3%83%8B%E3%83%A7%E3%83%83%E3%82%AD%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>&lt;p&gt;今日の夕飯はニョッキです。家で作ってみました。
 &lt;/p&gt;
 
-&lt;!--toc--&gt;
+&lt;p&gt;&lt;img src=&#34;img/20170219_nyoki.jpg&#34; alt=&#34;うちのニョッキ&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;テスト、てすと&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>日本語のタイトル</title>
-      <link>https://okangon.github.io/2017/02/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB/</link>
-      <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://okangon.github.io/2017/02/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB/</guid>
-      <description>&lt;p&gt;トップページに表示されます。以下の記号まで。
-&lt;/p&gt;
-
-&lt;!--toc--&gt;
-
-&lt;p&gt;本文はここからです。TOCも使えます。&lt;/p&gt;
-
-&lt;h2 id=&#34;注意する点&#34;&gt;注意する点&lt;/h2&gt;
+&lt;h1 id=&#34;作り方&#34;&gt;作り方&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;コロン:の後は空白を入れること&lt;/li&gt;
-&lt;li&gt;dateは書き直すこと&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;タイトル&#34;&gt;タイトル&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A&lt;/li&gt;
-&lt;li&gt;B&lt;/li&gt;
+&lt;li&gt;ジャガイモ大4個を適当な大きさに切り、茹でる&lt;/li&gt;
+&lt;li&gt;ジャガイモをマッシュし、強力粉をまぜ（150g～200gかな）、耳たぶほどのかたさにする&lt;/li&gt;
+&lt;li&gt;棒状にまとめて、切っていく&lt;/li&gt;
+&lt;li&gt;たくさんのお湯で茹で、浮いたやつを冷水にとり、水を切る&lt;/li&gt;
+&lt;li&gt;ソースにからめ、チーズをのせてオーブンで焼く（うちは魚焼き器で焼きました）&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>食べに行きたい店</title>
-      <link>https://okangon.github.io/2017/02/%E9%A3%9F%E3%81%B9%E3%81%AB%E8%A1%8C%E3%81%8D%E3%81%9F%E3%81%84%E5%BA%97/</link>
-      <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
+      <link>https://okangon.github.io/%E9%A3%9F%E3%81%B9%E3%81%AB%E8%A1%8C%E3%81%8D%E3%81%9F%E3%81%84%E5%BA%97/</link>
+      <pubDate>Sun, 19 Feb 2017 10:19:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2017/02/%E9%A3%9F%E3%81%B9%E3%81%AB%E8%A1%8C%E3%81%8D%E3%81%9F%E3%81%84%E5%BA%97/</guid>
+      <guid>https://okangon.github.io/%E9%A3%9F%E3%81%B9%E3%81%AB%E8%A1%8C%E3%81%8D%E3%81%9F%E3%81%84%E5%BA%97/</guid>
       <description>&lt;p&gt;飲み会で行きたい店。
 &lt;/p&gt;
 
@@ -272,11 +252,53 @@ git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git
     </item>
     
     <item>
+      <title>テスト</title>
+      <link>https://okangon.github.io/%E3%83%86%E3%82%B9%E3%83%88/</link>
+      <pubDate>Sun, 19 Feb 2017 02:23:00 +0000</pubDate>
+      
+      <guid>https://okangon.github.io/%E3%83%86%E3%82%B9%E3%83%88/</guid>
+      <description>&lt;p&gt;2個目のテスト
+&lt;/p&gt;
+
+&lt;!--toc--&gt;
+
+&lt;p&gt;テスト、てすと&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>日本語のタイトル</title>
+      <link>https://okangon.github.io/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB/</link>
+      <pubDate>Sun, 19 Feb 2017 01:49:00 +0000</pubDate>
+      
+      <guid>https://okangon.github.io/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB/</guid>
+      <description>&lt;p&gt;トップページに表示されます。以下の記号まで。
+&lt;/p&gt;
+
+&lt;!--toc--&gt;
+
+&lt;p&gt;本文はここからです。TOCも使えます。&lt;/p&gt;
+
+&lt;h2 id=&#34;注意する点&#34;&gt;注意する点&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;コロン:の後は空白を入れること&lt;/li&gt;
+&lt;li&gt;dateは書き直すこと&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;タイトル&#34;&gt;タイトル&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A&lt;/li&gt;
+&lt;li&gt;B&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>Elements showcase</title>
-      <link>https://okangon.github.io/2015/05/elements-showcase/</link>
+      <link>https://okangon.github.io/elements-showcase/</link>
       <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2015/05/elements-showcase/</guid>
+      <guid>https://okangon.github.io/elements-showcase/</guid>
       <description>&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.
 &lt;/p&gt;
 
@@ -367,10 +389,10 @@ sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula
     
     <item>
       <title>Cover image showcase</title>
-      <link>https://okangon.github.io/2015/05/cover-image-showcase/</link>
+      <link>https://okangon.github.io/cover-image-showcase/</link>
       <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2015/05/cover-image-showcase/</guid>
+      <guid>https://okangon.github.io/cover-image-showcase/</guid>
       <description>&lt;p&gt;Tranquilpeak integrate a unique &amp;ldquo;cover image&amp;rdquo; feature. Open this post to see how this feature sublimate your article.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.
@@ -385,10 +407,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae v
     
     <item>
       <title>highlighted code showcase</title>
-      <link>https://okangon.github.io/2015/03/highlighted-code-showcase/</link>
+      <link>https://okangon.github.io/highlighted-code-showcase/</link>
       <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2015/03/highlighted-code-showcase/</guid>
+      <guid>https://okangon.github.io/highlighted-code-showcase/</guid>
       <description>&lt;p&gt;Tranquilpeak Hugo theme have its own theme to highlight source code. It&amp;rsquo;s based on GitHub theme: simple and elegant. Check out how it sublimate source codes.
 &lt;/p&gt;
 
@@ -2267,10 +2289,10 @@ extension MyClass : Interface {
     
     <item>
       <title>Tags plugins showcase</title>
-      <link>https://okangon.github.io/2014/10/tags-plugins-showcase/</link>
+      <link>https://okangon.github.io/tags-plugins-showcase/</link>
       <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2014/10/tags-plugins-showcase/</guid>
+      <guid>https://okangon.github.io/tags-plugins-showcase/</guid>
       <description>&lt;p&gt;This post is used to show how tag plugins are displayed. See &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tags&#34;&gt;docs&lt;/a&gt; for more info.
 &lt;/p&gt;
 
@@ -3238,10 +3260,10 @@ dignissim ultrices libero. Sed imperdiet urna et quam ultrices tincidunt nec ac 
     
     <item>
       <title>Hidden social section showcase</title>
-      <link>https://okangon.github.io/2014/08/hidden-social-section-showcase/</link>
+      <link>https://okangon.github.io/hidden-social-section-showcase/</link>
       <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2014/08/hidden-social-section-showcase/</guid>
+      <guid>https://okangon.github.io/hidden-social-section-showcase/</guid>
       <description>&lt;p&gt;This post is used to show how a site looks if the social section is hidden.
 &lt;/p&gt;
 
@@ -3250,10 +3272,10 @@ dignissim ultrices libero. Sed imperdiet urna et quam ultrices tincidunt nec ac 
     
     <item>
       <title>Hidden tag section showcase</title>
-      <link>https://okangon.github.io/2014/08/hidden-tag-section-showcase/</link>
+      <link>https://okangon.github.io/hidden-tag-section-showcase/</link>
       <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2014/08/hidden-tag-section-showcase/</guid>
+      <guid>https://okangon.github.io/hidden-tag-section-showcase/</guid>
       <description>&lt;p&gt;This post is used to show how a site looks if the tag section is hidden.
 &lt;/p&gt;
 
@@ -3262,10 +3284,10 @@ dignissim ultrices libero. Sed imperdiet urna et quam ultrices tincidunt nec ac 
     
     <item>
       <title>Hidden pagination showcase</title>
-      <link>https://okangon.github.io/2014/08/hidden-pagination-showcase/</link>
+      <link>https://okangon.github.io/hidden-pagination-showcase/</link>
       <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2014/08/hidden-pagination-showcase/</guid>
+      <guid>https://okangon.github.io/hidden-pagination-showcase/</guid>
       <description>&lt;p&gt;This post is used to show how a site looks if the pagination is hidden.
 &lt;/p&gt;
 
@@ -3274,10 +3296,10 @@ dignissim ultrices libero. Sed imperdiet urna et quam ultrices tincidunt nec ac 
     
     <item>
       <title>Video integrations showcase</title>
-      <link>https://okangon.github.io/2014/08/video-integrations-showcase/</link>
+      <link>https://okangon.github.io/video-integrations-showcase/</link>
       <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2014/08/video-integrations-showcase/</guid>
+      <guid>https://okangon.github.io/video-integrations-showcase/</guid>
       <description>&lt;p&gt;Youtube and Vimeo videos are easily integrated thanks to tags plugins. Of course, you can add video other platforms like dailymotion.
 &lt;/p&gt;
 
@@ -3300,10 +3322,10 @@ dignissim ultrices libero. Sed imperdiet urna et quam ultrices tincidunt nec ac 
     
     <item>
       <title>中文測試</title>
-      <link>https://okangon.github.io/2013/10/chinese-test/</link>
+      <link>https://okangon.github.io/chinese-test/</link>
       <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2013/10/chinese-test/</guid>
+      <guid>https://okangon.github.io/chinese-test/</guid>
       <description>&lt;p&gt;This is a chinese test post to show you how chinese is displayed.
 &lt;/p&gt;
 
@@ -3324,36 +3346,12 @@ dignissim ultrices libero. Sed imperdiet urna et quam ultrices tincidunt nec ac 
     
     <item>
       <title>Image gallery showcase</title>
-      <link>https://okangon.github.io/2013/02/image-gallery-showcase/</link>
+      <link>https://okangon.github.io/image-gallery-showcase/</link>
       <pubDate>Mon, 18 Feb 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2013/02/image-gallery-showcase/</guid>
+      <guid>https://okangon.github.io/image-gallery-showcase/</guid>
       <description>&lt;p&gt;And here is the image gallery!
 &lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>日本語テスト</title>
-      <link>https://okangon.github.io/2013/01/japanese-test/</link>
-      <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://okangon.github.io/2013/01/japanese-test/</guid>
-      <description>&lt;p&gt;This is a Japanese test post to show you how japanese is displayed.
-&lt;/p&gt;
-
-&lt;p&gt;私は昨日ついにその助力家というのの上よりするたなけれ。
-最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。
-がたを知っないはずも同時に九月をいよいよたありた。&lt;/p&gt;
-
-&lt;p&gt;もっと槙さんにぼんやり金少し説明にえた自分大した人私か影響にというお関係たうませないが、この次第も私か兄具合に使うて、槙さんののに当人のあなたにさぞご意味と行くて私個人が小尊敬を聴いように同時に同反抗に集っだうて、いよいよまず相当へあっうからいだ事をしでなけれ。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;From &lt;a href=&#34;http://lipsum.sugutsukaeru.jp/index.cgi&#34;&gt;すぐ使えるダミーテキスト - 日本語 Lorem ipsum&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
