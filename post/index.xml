@@ -166,92 +166,208 @@
       <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://okangon.github.io/2015/05/elements-showcase/</guid>
-      <description>&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.
+      <description>&lt;p&gt;HugoにおけるMarkdownの記法について、簡単に説明します。
 &lt;/p&gt;
 
-&lt;h1 id=&#34;heading-1&#34;&gt;Heading 1&lt;/h1&gt;
+&lt;!--toc--&gt;
 
-&lt;h2 id=&#34;heading-2&#34;&gt;Heading 2&lt;/h2&gt;
+&lt;h1 id=&#34;見出し&#34;&gt;見出し&lt;/h1&gt;
 
-&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;#[空白]見出し&lt;/code&gt;で「見出し」になります。6段階まで可。&lt;/p&gt;
 
-&lt;h4 id=&#34;heading-4&#34;&gt;Heading 4&lt;/h4&gt;
+&lt;h2 id=&#34;見出し2&#34;&gt;見出し2&lt;/h2&gt;
 
-&lt;h5 id=&#34;heading-5&#34;&gt;Heading 5&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;##[空白]見出し2&lt;/code&gt;&lt;/p&gt;
 
-&lt;h6 id=&#34;heading-6&#34;&gt;Heading 6&lt;/h6&gt;
+&lt;h3 id=&#34;見出し3&#34;&gt;見出し3&lt;/h3&gt;
 
-&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;###[空白]見出し3&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, [test link]() consectetur adipiscing elit. &lt;strong&gt;Strong text&lt;/strong&gt; pellentesque ligula commodo viverra vehicula. &lt;em&gt;Italic text&lt;/em&gt; at ullamcorper enim. Morbi a euismod nibh. &lt;u&gt;Underline text&lt;/u&gt; non elit nisl. &lt;del&gt;Deleted text&lt;/del&gt; tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.&lt;/p&gt;
+&lt;h4 id=&#34;見出し4&#34;&gt;見出し4&lt;/h4&gt;
 
-&lt;p&gt;Interdum et malesuada fames ac ante ipsum primis in faucibus. &lt;code&gt;Sed erat diam&lt;/code&gt;, blandit eget felis aliquam, rhoncus varius urna. Donec tellus sapien, sodales eget ante vitae, feugiat ullamcorper urna. Praesent auctor dui vitae dapibus eleifend. Proin viverra mollis neque, ut ullamcorper elit posuere eget.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;###[空白]見出し4&lt;/code&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;list-types&#34;&gt;List Types&lt;/h2&gt;
+&lt;h5 id=&#34;見出し5&#34;&gt;見出し5&lt;/h5&gt;
 
-&lt;h3 id=&#34;definition-list-dl&#34;&gt;Definition List (dl)&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;#####[空白]見出し5&lt;/code&gt;&lt;/p&gt;
 
-&lt;dl&gt;&lt;dt&gt;Definition List Title&lt;/dt&gt;&lt;dd&gt;This is a definition list division.&lt;/dd&gt;&lt;/dl&gt;
+&lt;h6 id=&#34;見出し6&#34;&gt;見出し6&lt;/h6&gt;
 
-&lt;h3 id=&#34;ordered-list-ol&#34;&gt;Ordered List (ol)&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;######[空白]見出し6&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;文字修飾&#34;&gt;文字修飾&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;強調&lt;br&gt;記法：&lt;code&gt;**strong text**&lt;/code&gt;&lt;br&gt;表示：&lt;strong&gt;strong text&lt;/strong&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;斜体&lt;br&gt;記法：&lt;code&gt;*Italic text*&lt;/code&gt;&lt;br&gt;表示：&lt;em&gt;Italic text&lt;/em&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;下線&lt;br&gt;記法：&lt;code&gt;&amp;lt;u&amp;gt;Underline text&amp;lt;/u&amp;gt;&lt;/code&gt;&lt;br&gt;表示：&lt;u&gt;Underline text&lt;/u&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;一重取消線&lt;br&gt;記法：&lt;code&gt;~~Deleted text~~&lt;/code&gt;&lt;br&gt;表示：&lt;del&gt;Deleted text&lt;/del&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;上付き文字&lt;br&gt;記法：&lt;code&gt;上&amp;lt;sup&amp;gt;superscript&amp;lt;/sup&amp;gt;&lt;/code&gt;&lt;br&gt;表示：上&lt;sup&gt;superscript&lt;/sup&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;下付文字&lt;br&gt;記法：&lt;code&gt;下&amp;lt;sub&amp;gt;subscript&amp;lt;/sub&amp;gt;&lt;/code&gt;&lt;br&gt;表示：下&lt;sub&gt;subscript&lt;/sub&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;キーボード表示&lt;br&gt;記法：&lt;code&gt;&amp;lt;kbd&amp;gt;Ctrl&amp;lt;/kbd&amp;gt; + &amp;lt;kbd&amp;gt;Shift&amp;lt;/kbd&amp;gt; + &amp;lt;kbd&amp;gt;A&amp;lt;/kbd&amp;gt;&lt;/code&gt;&lt;br&gt;表示：&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;A&lt;/kbd&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;※ 強調と斜体の&lt;code&gt;*&lt;/code&gt;は&lt;code&gt;_&lt;/code&gt;でも置き換え可。&lt;/p&gt;
+
+&lt;h1 id=&#34;リスト&#34;&gt;リスト&lt;/h1&gt;
+
+&lt;h2 id=&#34;ordered-list-ol&#34;&gt;Ordered List (ol)&lt;/h2&gt;
+
+&lt;p&gt;記法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1. List Item 1
+    1. List Item 1-1
+    1. List Item 1-2
+        1. List Item 2-1
+        1. List Item 2-1
+1. List Item 2
+1. List Item 3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;List Item 1&lt;/li&gt;
+&lt;li&gt;List Item 1
+
+&lt;ol&gt;
+&lt;li&gt;List Item 1-1&lt;/li&gt;
+&lt;li&gt;List Item 1-2
+
+&lt;ol&gt;
+&lt;li&gt;List Item 2-1&lt;/li&gt;
+&lt;li&gt;List Item 2-1&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
 &lt;li&gt;List Item 2&lt;/li&gt;
 &lt;li&gt;List Item 3&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;unordered-list-ul&#34;&gt;Unordered List (ul)&lt;/h3&gt;
+&lt;h2 id=&#34;unordered-list-ul&#34;&gt;Unordered List (ul)&lt;/h2&gt;
+
+&lt;p&gt;記法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;* List Item 1
+    * List Item 1-1
+    * List Item 1-2
+        * List Item 2-1
+        * List Item 2-1
+* List Item 2
+* List Item 3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;List Item 1&lt;/li&gt;
+&lt;li&gt;List Item 1
+
+&lt;ul&gt;
+&lt;li&gt;List Item 1-1&lt;/li&gt;
+&lt;li&gt;List Item 1-2
+
+&lt;ul&gt;
+&lt;li&gt;List Item 2-1&lt;/li&gt;
+&lt;li&gt;List Item 2-1&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;List Item 2&lt;/li&gt;
 &lt;li&gt;List Item 3&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;table&#34;&gt;Table&lt;/h2&gt;
+&lt;p&gt;※ 上下に空行が必要です。
+※ ulにおいて、&lt;code&gt;*&lt;/code&gt;は&lt;code&gt;_&lt;/code&gt;でも置き換え可。
+※ ネストは空白×4です&lt;/p&gt;
+
+&lt;h1 id=&#34;表&#34;&gt;表&lt;/h1&gt;
+
+&lt;p&gt;記法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;|Header 1|Header 2|Header 3|  1行目：ヘッダ
+|:--|--:|:--:|  2行目：セル内のテキスト位置
+|Division 1|Division 2|Division 3|  3行目以降：内容
+|left|right|center|
+|left|right|center|
+|left|right|center|
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;Header 1&lt;/th&gt;
-&lt;th&gt;Header 2&lt;/th&gt;
-&lt;th&gt;Header 3&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Header 1&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Header 2&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Header 3&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Division 1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;Division 2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Division 3&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;left&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;right&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;center&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;left&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;right&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;center&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;left&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;right&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;center&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;misc-stuff-abbr-acronym-sub-sup-etc&#34;&gt;Misc Stuff - abbr, acronym, sub, sup, etc.&lt;/h2&gt;
+&lt;p&gt;※ 上下に空行が必要です。&lt;/p&gt;
 
-&lt;p&gt;Lorem &lt;sup&gt;superscript&lt;/sup&gt; dolor &lt;sub&gt;subscript&lt;/sub&gt; amet, consectetuer adipiscing &lt;kdb&gt;ctrl + c&lt;/kdb&gt;. Nullam dignissim convallis est. Quisque aliquam. &lt;cite&gt;cite&lt;/cite&gt;. Nunc iaculis suscipit dui.
- Nam
-sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. &lt;acronym title=&#34;National Basketball Association&#34;&gt;NBA&lt;/acronym&gt; Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  &lt;abbr title=&#34;Avenue&#34;&gt;AVE&lt;/abbr&gt;&lt;/p&gt;</description>
+&lt;h1 id=&#34;引用&#34;&gt;引用&lt;/h1&gt;
+
+&lt;p&gt;記法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; Quote here.
+&amp;gt;
+&amp;gt; -- &amp;lt;cite&amp;gt;Benjamin Franklin&amp;lt;/cite&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Quote here.&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; &lt;cite&gt;Benjamin Franklin&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;※ 上下に空行が必要です。&lt;/p&gt;
+
+&lt;h1 id=&#34;略語&#34;&gt;略語&lt;/h1&gt;
+
+&lt;p&gt;ポップアップで非省略語を表示します。&lt;/p&gt;
+
+&lt;p&gt;記法：&lt;code&gt;&amp;lt;adbr title=&amp;quot;National Basketball Association&amp;quot;&amp;gt;NBA&amp;lt;/adbr&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;表示：&lt;adbr title=&#34;National Basketball Association&#34;&gt;NBA&lt;/adbr&gt;&lt;/p&gt;
+
+&lt;p&gt;※ NBAの文字上にマウスを移動させてみてください。&lt;/p&gt;
+
+&lt;h1 id=&#34;水平線&#34;&gt;水平線&lt;/h1&gt;
+
+&lt;p&gt;記法：
+&lt;code&gt;- - -&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;※ &lt;code&gt;---&lt;/code&gt;でも良いのですが、上の行に文字があると・・・&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -28,9 +28,9 @@
     
 
     
-    <meta name="description" content="Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&rsquo;s simple and elegant.
+    <meta name="description" content="HugoにおけるMarkdownの記法について、簡単に説明します。
 ">
-    <meta property="og:description" content="Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&rsquo;s simple and elegant.
+    <meta property="og:description" content="HugoにおけるMarkdownの記法について、簡単に説明します。
 ">
     <meta property="og:type" content="blog">
     <meta property="og:title" content="Elements showcase">
@@ -38,7 +38,7 @@
     <meta property="og:site_name" content="OkanGon">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="OkanGon">
-    <meta name="twitter:description" content="Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&rsquo;s simple and elegant.
+    <meta name="twitter:description" content="HugoにおけるMarkdownの記法について、簡単に説明します。
 ">
     
     
@@ -201,92 +201,237 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&rsquo;s simple and elegant.
+              <p>HugoにおけるMarkdownの記法について、簡単に説明します。
 </p>
 
-<h1 id="heading-1">Heading 1</h1>
+<h1 id="table-of-contents">Table of Contents</h1><nav id="TableOfContents">
+<ul>
+<li><a href="#見出し">見出し</a>
+<ul>
+<li><a href="#見出し2">見出し2</a>
+<ul>
+<li><a href="#見出し3">見出し3</a>
+<ul>
+<li><a href="#見出し4">見出し4</a>
+<ul>
+<li><a href="#見出し5">見出し5</a>
+<ul>
+<li><a href="#見出し6">見出し6</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="#文字修飾">文字修飾</a></li>
+<li><a href="#リスト">リスト</a>
+<ul>
+<li><a href="#ordered-list-ol">Ordered List (ol)</a></li>
+<li><a href="#unordered-list-ul">Unordered List (ul)</a></li>
+</ul></li>
+<li><a href="#表">表</a></li>
+<li><a href="#引用">引用</a></li>
+<li><a href="#略語">略語</a></li>
+<li><a href="#水平線">水平線</a></li>
+</ul>
+</nav>
 
-<h2 id="heading-2">Heading 2</h2>
+<h1 id="見出し">見出し</h1>
 
-<h3 id="heading-3">Heading 3</h3>
+<p><code>#[空白]見出し</code>で「見出し」になります。6段階まで可。</p>
 
-<h4 id="heading-4">Heading 4</h4>
+<h2 id="見出し2">見出し2</h2>
 
-<h5 id="heading-5">Heading 5</h5>
+<p><code>##[空白]見出し2</code></p>
 
-<h6 id="heading-6">Heading 6</h6>
+<h3 id="見出し3">見出し3</h3>
 
-<h2 id="paragraph">Paragraph</h2>
+<p><code>###[空白]見出し3</code></p>
 
-<p>Lorem ipsum dolor sit amet, [test link]() consectetur adipiscing elit. <strong>Strong text</strong> pellentesque ligula commodo viverra vehicula. <em>Italic text</em> at ullamcorper enim. Morbi a euismod nibh. <u>Underline text</u> non elit nisl. <del>Deleted text</del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.</p>
+<h4 id="見出し4">見出し4</h4>
 
-<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. <code>Sed erat diam</code>, blandit eget felis aliquam, rhoncus varius urna. Donec tellus sapien, sodales eget ante vitae, feugiat ullamcorper urna. Praesent auctor dui vitae dapibus eleifend. Proin viverra mollis neque, ut ullamcorper elit posuere eget.</p>
+<p><code>###[空白]見出し4</code></p>
 
-<h2 id="list-types">List Types</h2>
+<h5 id="見出し5">見出し5</h5>
 
-<h3 id="definition-list-dl">Definition List (dl)</h3>
+<p><code>#####[空白]見出し5</code></p>
 
-<dl><dt>Definition List Title</dt><dd>This is a definition list division.</dd></dl>
+<h6 id="見出し6">見出し6</h6>
 
-<h3 id="ordered-list-ol">Ordered List (ol)</h3>
+<p><code>######[空白]見出し6</code></p>
+
+<h1 id="文字修飾">文字修飾</h1>
+
+<ul>
+<li>強調<br>記法：<code>**strong text**</code><br>表示：<strong>strong text</strong><br><br></li>
+<li>斜体<br>記法：<code>*Italic text*</code><br>表示：<em>Italic text</em><br><br></li>
+<li>下線<br>記法：<code>&lt;u&gt;Underline text&lt;/u&gt;</code><br>表示：<u>Underline text</u><br><br></li>
+<li>一重取消線<br>記法：<code>~~Deleted text~~</code><br>表示：<del>Deleted text</del><br><br></li>
+<li>上付き文字<br>記法：<code>上&lt;sup&gt;superscript&lt;/sup&gt;</code><br>表示：上<sup>superscript</sup><br><br></li>
+<li>下付文字<br>記法：<code>下&lt;sub&gt;subscript&lt;/sub&gt;</code><br>表示：下<sub>subscript</sub><br><br></li>
+<li>キーボード表示<br>記法：<code>&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;A&lt;/kbd&gt;</code><br>表示：<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd></li>
+</ul>
+
+<p>※ 強調と斜体の<code>*</code>は<code>_</code>でも置き換え可。</p>
+
+<h1 id="リスト">リスト</h1>
+
+<h2 id="ordered-list-ol">Ordered List (ol)</h2>
+
+<p>記法：</p>
+
+<pre><code>1. List Item 1
+    1. List Item 1-1
+    1. List Item 1-2
+        1. List Item 2-1
+        1. List Item 2-1
+1. List Item 2
+1. List Item 3
+</code></pre>
+
+<p>表示：</p>
 
 <ol>
-<li>List Item 1</li>
+<li>List Item 1
+
+<ol>
+<li>List Item 1-1</li>
+<li>List Item 1-2
+
+<ol>
+<li>List Item 2-1</li>
+<li>List Item 2-1</li>
+</ol></li>
+</ol></li>
 <li>List Item 2</li>
 <li>List Item 3</li>
 </ol>
 
-<h3 id="unordered-list-ul">Unordered List (ul)</h3>
+<h2 id="unordered-list-ul">Unordered List (ul)</h2>
+
+<p>記法：</p>
+
+<pre><code>* List Item 1
+    * List Item 1-1
+    * List Item 1-2
+        * List Item 2-1
+        * List Item 2-1
+* List Item 2
+* List Item 3
+</code></pre>
+
+<p>表示：</p>
 
 <ul>
-<li>List Item 1</li>
+<li>List Item 1
+
+<ul>
+<li>List Item 1-1</li>
+<li>List Item 1-2
+
+<ul>
+<li>List Item 2-1</li>
+<li>List Item 2-1</li>
+</ul></li>
+</ul></li>
 <li>List Item 2</li>
 <li>List Item 3</li>
 </ul>
 
-<h2 id="table">Table</h2>
+<p>※ 上下に空行が必要です。
+※ ulにおいて、<code>*</code>は<code>_</code>でも置き換え可。
+※ ネストは空白×4です</p>
+
+<h1 id="表">表</h1>
+
+<p>記法：</p>
+
+<pre><code>|Header 1|Header 2|Header 3|  1行目：ヘッダ
+|:--|--:|:--:|  2行目：セル内のテキスト位置
+|Division 1|Division 2|Division 3|  3行目以降：内容
+|left|right|center|
+|left|right|center|
+|left|right|center|
+</code></pre>
+
+<p>表示：</p>
 
 <table>
 <thead>
 <tr>
-<th align="center">Header 1</th>
-<th>Header 2</th>
-<th>Header 3</th>
+<th align="left">Header 1</th>
+<th align="right">Header 2</th>
+<th align="center">Header 3</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td align="center">Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
+<td align="left">Division 1</td>
+<td align="right">Division 2</td>
+<td align="center">Division 3</td>
 </tr>
 
 <tr>
-<td align="center">Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
+<td align="left">left</td>
+<td align="right">right</td>
+<td align="center">center</td>
 </tr>
 
 <tr>
-<td align="center">Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
+<td align="left">left</td>
+<td align="right">right</td>
+<td align="center">center</td>
 </tr>
 
 <tr>
-<td align="center">Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
+<td align="left">left</td>
+<td align="right">right</td>
+<td align="center">center</td>
 </tr>
 </tbody>
 </table>
 
-<h2 id="misc-stuff-abbr-acronym-sub-sup-etc">Misc Stuff - abbr, acronym, sub, sup, etc.</h2>
+<p>※ 上下に空行が必要です。</p>
 
-<p>Lorem <sup>superscript</sup> dolor <sub>subscript</sub> amet, consectetuer adipiscing <kdb>ctrl + c</kdb>. Nullam dignissim convallis est. Quisque aliquam. <cite>cite</cite>. Nunc iaculis suscipit dui.
- Nam
-sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. <acronym title="National Basketball Association">NBA</acronym> Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  <abbr title="Avenue">AVE</abbr></p>
+<h1 id="引用">引用</h1>
+
+<p>記法：</p>
+
+<pre><code>&gt; Quote here.
+&gt;
+&gt; -- &lt;cite&gt;Benjamin Franklin&lt;/cite&gt;
+</code></pre>
+
+<p>表示：</p>
+
+<blockquote>
+<p>Quote here.</p>
+
+<p>&ndash; <cite>Benjamin Franklin</cite></p>
+</blockquote>
+
+<p>※ 上下に空行が必要です。</p>
+
+<h1 id="略語">略語</h1>
+
+<p>ポップアップで非省略語を表示します。</p>
+
+<p>記法：<code>&lt;adbr title=&quot;National Basketball Association&quot;&gt;NBA&lt;/adbr&gt;</code></p>
+
+<p>表示：<adbr title="National Basketball Association">NBA</adbr></p>
+
+<p>※ NBAの文字上にマウスを移動させてみてください。</p>
+
+<h1 id="水平線">水平線</h1>
+
+<p>記法：
+<code>- - -</code></p>
+
+<p>表示：</p>
+
+<hr />
+
+<p>※ <code>---</code>でも良いのですが、上の行に文字があると・・・</p>
               
             </div>
           </div>
@@ -355,7 +500,7 @@ sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula
     
     <li class="post-action">
       
-        <a class="post-action-btn btn btn--default" href="#">
+        <a class="post-action-btn btn btn--default" href="#table-of-contents">
       
         <i class="fa fa-list"></i>
       </a>
@@ -426,7 +571,7 @@ sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula
     
     <li class="post-action">
       
-        <a class="post-action-btn btn btn--default" href="#">
+        <a class="post-action-btn btn btn--default" href="#table-of-contents">
       
         <i class="fa fa-list"></i>
       </a>
@@ -625,7 +770,7 @@ sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula
                   May 5, 2015
                 </span>
               </span>
-              <div class="media-content hide-xs font-merryweather"><p>Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&rsquo;s simple and elegant.
+              <div class="media-content hide-xs font-merryweather"><p>HugoにおけるMarkdownの記法について、簡単に説明します。
 </p></div>
             </div>
             <div style="clear:both;"></div>
