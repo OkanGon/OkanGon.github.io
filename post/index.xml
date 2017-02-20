@@ -22,16 +22,6 @@
     </item>
     
     <item>
-      <title>Image gallery showcase</title>
-      <link>https://okangon.github.io/2017/02/test_image_gallery_showcase/</link>
-      <pubDate>Sun, 19 Feb 2017 19:57:00 +0000</pubDate>
-      
-      <guid>https://okangon.github.io/2017/02/test_image_gallery_showcase/</guid>
-      <description>&lt;p&gt;イメージギャラリーのデモです。
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>ニョッキを作ってみました</title>
       <link>https://okangon.github.io/2017/02/2017021904/</link>
       <pubDate>Sun, 19 Feb 2017 16:37:00 +0000</pubDate>
@@ -161,12 +151,22 @@
     </item>
     
     <item>
-      <title>Elements showcase</title>
-      <link>https://okangon.github.io/2015/05/elements-showcase/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      <title>Image gallery showcase</title>
+      <link>https://okangon.github.io/2016/02/image-gallery-showcase/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2015/05/elements-showcase/</guid>
-      <description>&lt;p&gt;HugoにおけるMarkdownの記法について、簡単に説明します。
+      <guid>https://okangon.github.io/2016/02/image-gallery-showcase/</guid>
+      <description>&lt;p&gt;イメージギャラリーのデモです。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown syntax 02</title>
+      <link>https://okangon.github.io/2016/01/markdown-syntax-02/</link>
+      <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://okangon.github.io/2016/01/markdown-syntax-02/</guid>
+      <description>&lt;p&gt;引き続き、HugoにおけるMarkdownの記法について、簡単に説明します。
 &lt;/p&gt;
 
 &lt;!--toc--&gt;
@@ -368,6 +368,55 @@
 &lt;hr /&gt;
 
 &lt;p&gt;※ &lt;code&gt;---&lt;/code&gt;でも良いのですが、上の行に文字があると・・・&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown syntax 01</title>
+      <link>https://okangon.github.io/2016/01/markdown-syntax-01/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://okangon.github.io/2016/01/markdown-syntax-01/</guid>
+      <description>&lt;p&gt;HugoにおけるMarkdownの記法について、簡単に説明します。
+&lt;/p&gt;
+
+&lt;h1 id=&#34;誤った改行&#34;&gt;誤った改行&lt;/h1&gt;
+
+&lt;p&gt;最初、Markdownの記法では改行すらままならず、いらいらします。以下のように表記しても改行されません。&lt;/p&gt;
+
+&lt;p&gt;記法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1行目の内容。
+2行目の内容。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
+
+&lt;p&gt;1行目の内容。
+2行目の内容。&lt;/p&gt;
+
+&lt;h1 id=&#34;正しい改行&#34;&gt;正しい改行&lt;/h1&gt;
+
+&lt;p&gt;以下が正しい記法です。私は空白×2は分かりにくいので、&lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt;を使うことが多いです。&lt;/p&gt;
+
+&lt;p&gt;記法1:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1行目の内容。[空白][空白]
+2行目の内容。[空白][空白]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
+
+&lt;p&gt;1行目の内容。&lt;br /&gt;
+2行目の内容。&lt;/p&gt;
+
+&lt;p&gt;記法2:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1行目の内容。&amp;lt;br&amp;gt;2行目の内容。&amp;lt;br&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
+
+&lt;p&gt;1行目の内容。&lt;br&gt;2行目の内容。&lt;br&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -3301,30 +3350,6 @@ dignissim ultrices libero. Sed imperdiet urna et quam ultrices tincidunt nec ac 
   &lt;iframe src=&#34;//player.vimeo.com/video/17877190&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 &lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>中文測試</title>
-      <link>https://okangon.github.io/2013/10/chinese-test/</link>
-      <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://okangon.github.io/2013/10/chinese-test/</guid>
-      <description>&lt;p&gt;This is a chinese test post to show you how chinese is displayed.
-&lt;/p&gt;
-
-&lt;p&gt;善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。&lt;/p&gt;
-
-&lt;p&gt;以也座論頭室業放。要車時地變此親不老高小是統習直麼調未，行年香一？&lt;/p&gt;
-
-&lt;p&gt;就竟在，是我童示讓利分和異種百路關母信過明驗有個歷洋中前合著區亮風值新底車有正結，進快保的行戰從：弟除文辦條國備當來際年每小腳識世可的的外的廣下歌洲保輪市果底天影；全氣具些回童但倒影發狀在示，數上學大法很，如要我……月品大供這起服滿老？應學傳者國：山式排只不之然清同關；細車是！停屋常間又，資畫領生，相們制在？公別的人寫教資夠。資再我我！只臉夫藝量不路政吃息緊回力之；兒足灣電空時局我怎初安。意今一子區首者微陸現際安除發連由子由而走學體區園我車當會，經時取頭，嚴了新科同？很夫營動通打，出和導一樂，查旅他。坐是收外子發物北看蘭戰坐車身做可來。道就學務。&lt;/p&gt;
-
-&lt;p&gt;國新故。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;工步他始能詩的，裝進分星海演意學值例道……於財型目古香亮自和這乎？化經溫詩。只賽嚴大一主價世哥受的沒有中年即病行金拉麼河。主小路了種就小為廣不？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;From &lt;a href=&#34;http://www.richyli.com/tool/loremipsum/&#34;&gt;亂數假文產生器 - Chinese Lorem Ipsum&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

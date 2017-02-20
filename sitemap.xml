@@ -7,11 +7,6 @@
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2017/02/test_image_gallery_showcase/</loc>
-    <lastmod>2017-02-19T19:57:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://okangon.github.io/2017/02/2017021904/</loc>
     <lastmod>2017-02-19T16:37:00+00:00</lastmod>
   </url>
@@ -32,8 +27,18 @@
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2015/05/elements-showcase/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <loc>https://okangon.github.io/2016/02/image-gallery-showcase/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okangon.github.io/2016/01/markdown-syntax-02/</loc>
+    <lastmod>2016-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okangon.github.io/2016/01/markdown-syntax-01/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -72,23 +77,7 @@
   </url>
   
   <url>
-    <loc>https://okangon.github.io/2013/10/chinese-test/</loc>
-    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://okangon.github.io/2013/01/japanese-test/</loc>
-    <lastmod>2013-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://okangon.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://okangon.github.io/tags/chinese/</loc>
-    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,7 +95,7 @@
   
   <url>
     <loc>https://okangon.github.io/categories/demo-page/</loc>
-    <lastmod>2017-02-19T19:57:00+00:00</lastmod>
+    <lastmod>2017-02-19T10:19:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -118,7 +107,7 @@
   
   <url>
     <loc>https://okangon.github.io/categories/features/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -136,19 +125,19 @@
   
   <url>
     <loc>https://okangon.github.io/tags/html-elements/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://okangon.github.io/tags/japanese/</loc>
-    <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://okangon.github.io/tags/markdown/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://okangon.github.io/categories/markdown-syntax/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -207,7 +196,7 @@
   
   <url>
     <loc>https://okangon.github.io/categories/tranquilpeak/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -9,12 +9,22 @@
     <atom:link href="https://okangon.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Elements showcase</title>
-      <link>https://okangon.github.io/2015/05/elements-showcase/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      <title>Image gallery showcase</title>
+      <link>https://okangon.github.io/2016/02/image-gallery-showcase/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2015/05/elements-showcase/</guid>
-      <description>&lt;p&gt;HugoにおけるMarkdownの記法について、簡単に説明します。
+      <guid>https://okangon.github.io/2016/02/image-gallery-showcase/</guid>
+      <description>&lt;p&gt;イメージギャラリーのデモです。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown syntax 02</title>
+      <link>https://okangon.github.io/2016/01/markdown-syntax-02/</link>
+      <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://okangon.github.io/2016/01/markdown-syntax-02/</guid>
+      <description>&lt;p&gt;引き続き、HugoにおけるMarkdownの記法について、簡単に説明します。
 &lt;/p&gt;
 
 &lt;!--toc--&gt;
@@ -216,6 +226,55 @@
 &lt;hr /&gt;
 
 &lt;p&gt;※ &lt;code&gt;---&lt;/code&gt;でも良いのですが、上の行に文字があると・・・&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown syntax 01</title>
+      <link>https://okangon.github.io/2016/01/markdown-syntax-01/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://okangon.github.io/2016/01/markdown-syntax-01/</guid>
+      <description>&lt;p&gt;HugoにおけるMarkdownの記法について、簡単に説明します。
+&lt;/p&gt;
+
+&lt;h1 id=&#34;誤った改行&#34;&gt;誤った改行&lt;/h1&gt;
+
+&lt;p&gt;最初、Markdownの記法では改行すらままならず、いらいらします。以下のように表記しても改行されません。&lt;/p&gt;
+
+&lt;p&gt;記法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1行目の内容。
+2行目の内容。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
+
+&lt;p&gt;1行目の内容。
+2行目の内容。&lt;/p&gt;
+
+&lt;h1 id=&#34;正しい改行&#34;&gt;正しい改行&lt;/h1&gt;
+
+&lt;p&gt;以下が正しい記法です。私は空白×2は分かりにくいので、&lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt;を使うことが多いです。&lt;/p&gt;
+
+&lt;p&gt;記法1:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1行目の内容。[空白][空白]
+2行目の内容。[空白][空白]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
+
+&lt;p&gt;1行目の内容。&lt;br /&gt;
+2行目の内容。&lt;/p&gt;
+
+&lt;p&gt;記法2:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1行目の内容。&amp;lt;br&amp;gt;2行目の内容。&amp;lt;br&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
+
+&lt;p&gt;1行目の内容。&lt;br&gt;2行目の内容。&lt;br&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
