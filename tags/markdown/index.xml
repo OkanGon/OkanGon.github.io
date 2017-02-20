@@ -131,8 +131,8 @@
 &lt;li&gt;List Item 3&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;※ 上下に空行が必要です。
-※ ulにおいて、&lt;code&gt;*&lt;/code&gt;は&lt;code&gt;_&lt;/code&gt;でも置き換え可。
+&lt;p&gt;※ 上下に空行が必要です。&lt;br&gt;
+※ ulにおいて、&lt;code&gt;*&lt;/code&gt;は&lt;code&gt;_&lt;/code&gt;でも置き換え可。&lt;br&gt;
 ※ ネストは空白×4です&lt;/p&gt;
 
 &lt;h1 id=&#34;表&#34;&gt;表&lt;/h1&gt;
