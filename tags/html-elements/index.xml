@@ -137,11 +137,14 @@
 
 &lt;h1 id=&#34;表&#34;&gt;表&lt;/h1&gt;
 
-&lt;p&gt;記法：&lt;/p&gt;
+&lt;p&gt;記法：&lt;br&gt;
+1行目：ヘッダ&lt;br&gt;
+2行目：セル内のテキスト位置&lt;br&gt;
+3行目以降：内容&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;|Header 1|Header 2|Header 3|  1行目：ヘッダ
-|:--|--:|:--:|  2行目：セル内のテキスト位置
-|Division 1|Division 2|Division 3|  3行目以降：内容
+&lt;pre&gt;&lt;code&gt;|Header 1|Header 2|Header 3|
+|:--|--:|:--:|
+|Division 1|Division 2|Division 3|
 |left|right|center|
 |left|right|center|
 |left|right|center|
