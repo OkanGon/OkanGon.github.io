@@ -28,9 +28,9 @@
     
 
     
-    <meta name="description" content="トップページに表示されます。以下の記号まで。
+    <meta name="description" content="ここの部分はトップページに表示されます。概要を書きます。
 ">
-    <meta property="og:description" content="トップページに表示されます。以下の記号まで。
+    <meta property="og:description" content="ここの部分はトップページに表示されます。概要を書きます。
 ">
     <meta property="og:type" content="blog">
     <meta property="og:title" content="テスト1">
@@ -38,7 +38,7 @@
     <meta property="og:site_name" content="OkanGon">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="OkanGon">
-    <meta name="twitter:description" content="トップページに表示されます。以下の記号まで。
+    <meta name="twitter:description" content="ここの部分はトップページに表示されます。概要を書きます。
 ">
     
     
@@ -53,8 +53,6 @@
     
       <meta property="og:image" content="https://OkanGon.github.io/img/thumb01.jpg">
     
-    
-      <meta property="og:image" content="https://OkanGon.github.io/img/cover.jpg">
     
     
 
@@ -163,13 +161,15 @@
 </nav>
 
       
-  <div class="post-header-cover
-              text-left
-              "
-       style="background-image:url('/img/cover.jpg')"
-       data-behavior="4">
-    
-      <div class="post-header main-content-wrap text-left">
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title" itemprop="headline">
       テスト1
@@ -196,37 +196,13 @@
 </div>
 
 </div>
-    
-  </div>
-
-
-      <div id="main" data-behavior="4"
-        class="hasCover
-               hasCoverMetaIn
-               ">
-        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
-          
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>トップページに表示されます。以下の記号まで。
+              <p>ここの部分はトップページに表示されます。概要を書きます。
 </p>
 
 <p>本文はここからです。</p>
-
-<h2 id="注意する点">注意する点</h2>
-
-<ul>
-<li>コロン:の後は空白を入れること</li>
-<li>dateは書き直すこと</li>
-</ul>
-
-<h2 id="タイトル">タイトル</h2>
-
-<ul>
-<li>A</li>
-<li>B</li>
-</ul>
               
             </div>
           </div>
@@ -527,7 +503,7 @@
                   Feb 2, 2017
                 </span>
               </span>
-              <div class="media-content hide-xs font-merryweather"><p>トップページに表示されます。以下の記号まで。
+              <div class="media-content hide-xs font-merryweather"><p>ここの部分はトップページに表示されます。概要を書きます。
 </p></div>
             </div>
             <div style="clear:both;"></div>
@@ -546,6 +522,24 @@
                 </span>
               </span>
               <div class="media-content hide-xs font-merryweather"><p>イメージギャラリーのデモです。
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://okangon.github.io/2016/01/markdown-extras/">
+                <h3 class="media-heading">Markdown extras</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Hugoにはいくつかの便利な記法が追加されています。
 </p></div>
             </div>
             <div style="clear:both;"></div>
@@ -581,7 +575,13 @@
                   Jan 1, 2016
                 </span>
               </span>
-              <div class="media-content hide-xs font-merryweather"><p>HugoにおけるMarkdownの記法について、簡単に説明します。
+              <div class="media-content hide-xs font-merryweather"><blockquote>
+<p>Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつである。本来はプレーンテキスト形式で手軽に書いた文書からHTMLを生成するために開発されたものである。</p>
+
+<p><cite><a href="https://ja.wikipedia.org/wiki/Markdown">Wikipedia</a><cite></p>
+</blockquote>
+
+<p>HugoにおけるMarkdownの書き方について、簡単に説明します。
 </p></div>
             </div>
             <div style="clear:both;"></div>
@@ -591,32 +591,15 @@
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="https://okangon.github.io/2015/05/cover-image-showcase/">
-                <h3 class="media-heading">Cover image showcase</h3>
+              <a class="link-unstyled" href="https://okangon.github.io/2016/01/hajimeni/">
+                <h3 class="media-heading">はじめに</h3>
               </a>
               <span class="media-meta">
                 <span class="media-date text-small">
-                  May 5, 2015
+                  Jan 1, 2016
                 </span>
               </span>
-              <div class="media-content hide-xs font-merryweather"></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://okangon.github.io/2015/03/highlighted-code-showcase/">
-                <h3 class="media-heading">highlighted code showcase</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Mar 3, 2015
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><p>Tranquilpeak Hugo theme have its own theme to highlight source code. It&rsquo;s based on GitHub theme: simple and elegant. Check out how it sublimate source codes.
+              <div class="media-content hide-xs font-merryweather"><p>作成手順を以下に説明します。（プライベート用です。他の方は見てもよくわからないと思います）
 </p></div>
             </div>
             <div style="clear:both;"></div>
@@ -630,7 +613,7 @@
          data-message-zero="no post found"
          data-message-one="1 post found"
          data-message-other="{n} posts found">
-         15 posts found
+         13 posts found
       </p>
     </div>
   </div>

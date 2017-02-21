@@ -44,16 +44,8 @@
 &lt;h1 id=&#34;五反田&#34;&gt;五反田&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://tabelog.com/tokyo/A1316/A131603/13181277/dtlrvwlst/&#34;&gt;五反田漁師バル&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;肉も食べれるハイコスパな魚介系バル&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://tabelog.com/tokyo/A1316/A131603/13052717/&#34;&gt;サンフラワー&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ベトナム料理&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tabelog.com/tokyo/A1316/A131603/13181277/dtlrvwlst/&#34;&gt;五反田漁師バル&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tabelog.com/tokyo/A1316/A131603/13052717/&#34;&gt;サンフラワー&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;大井町&#34;&gt;大井町&lt;/h1&gt;
@@ -95,24 +87,10 @@
       <pubDate>Sun, 19 Feb 2017 01:49:00 +0000</pubDate>
       
       <guid>https://okangon.github.io/2017/02/test01/</guid>
-      <description>&lt;p&gt;トップページに表示されます。以下の記号まで。
+      <description>&lt;p&gt;ここの部分はトップページに表示されます。概要を書きます。
 &lt;/p&gt;
 
-&lt;p&gt;本文はここからです。&lt;/p&gt;
-
-&lt;h2 id=&#34;注意する点&#34;&gt;注意する点&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;コロン:の後は空白を入れること&lt;/li&gt;
-&lt;li&gt;dateは書き直すこと&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;タイトル&#34;&gt;タイトル&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A&lt;/li&gt;
-&lt;li&gt;B&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;本文はここからです。&lt;/p&gt;</description>
     </item>
     
   </channel>

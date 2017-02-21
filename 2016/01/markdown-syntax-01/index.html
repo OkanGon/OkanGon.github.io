@@ -28,9 +28,21 @@
     
 
     
-    <meta name="description" content="HugoにおけるMarkdownの記法について、簡単に説明します。
+    <meta name="description" content="
+Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつである。本来はプレーンテキスト形式で手軽に書いた文書からHTMLを生成するために開発されたものである。
+
+Wikipedia
+
+
+HugoにおけるMarkdownの書き方について、簡単に説明します。
 ">
-    <meta property="og:description" content="HugoにおけるMarkdownの記法について、簡単に説明します。
+    <meta property="og:description" content="
+Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつである。本来はプレーンテキスト形式で手軽に書いた文書からHTMLを生成するために開発されたものである。
+
+Wikipedia
+
+
+HugoにおけるMarkdownの書き方について、簡単に説明します。
 ">
     <meta property="og:type" content="blog">
     <meta property="og:title" content="Markdown syntax 01">
@@ -38,7 +50,13 @@
     <meta property="og:site_name" content="OkanGon">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="OkanGon">
-    <meta name="twitter:description" content="HugoにおけるMarkdownの記法について、簡単に説明します。
+    <meta name="twitter:description" content="
+Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつである。本来はプレーンテキスト形式で手軽に書いた文書からHTMLを生成するために開発されたものである。
+
+Wikipedia
+
+
+HugoにおけるMarkdownの書き方について、簡単に説明します。
 ">
     
     
@@ -177,12 +195,6 @@
   
   <div class="postShorten-meta post-meta">
   
-    <time itemprop="datePublished" datetime="2016-01-01T00:00:00Z">
-      
-  January 1, 2016
-
-    </time>
-  
   
   
   
@@ -199,12 +211,18 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>HugoにおけるMarkdownの記法について、簡単に説明します。
+              <blockquote>
+<p>Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつである。本来はプレーンテキスト形式で手軽に書いた文書からHTMLを生成するために開発されたものである。</p>
+
+<p><cite><a href="https://ja.wikipedia.org/wiki/Markdown">Wikipedia</a><cite></p>
+</blockquote>
+
+<p>HugoにおけるMarkdownの書き方について、簡単に説明します。
 </p>
 
 <h1 id="誤った改行">誤った改行</h1>
 
-<p>最初、Markdownの記法では改行すらままならず、いらいらします。以下のように表記しても改行されません。</p>
+<p>最初、Markdownで記述すると、改行すらままならず、いらいらします。以下のように表記しても改行されません。</p>
 
 <p>記法：</p>
 
@@ -219,7 +237,7 @@
 
 <h1 id="正しい改行">正しい改行</h1>
 
-<p>以下が正しい記法です。私は空白×2は分かりにくいので、<code>&lt;br&gt;</code>を使うことが多いです。</p>
+<p>以下が正しい記法です。空白×2は分かりにくいので、私は<code>&lt;br&gt;</code>を使うことが多いです。</p>
 
 <p>記法1:</p>
 
@@ -240,6 +258,23 @@
 <p>表示：</p>
 
 <p>1行目の内容。<br>2行目の内容。<br></p>
+
+<h1 id="段落">段落</h1>
+
+<p>空白行をあけることで、段落を分けることができます。</p>
+
+<p>記法：</p>
+
+<pre><code>私は当初、Markdownには不慣れでした。記法をすぐ忘れてしまって、改行はできないし、文字修飾するにも一苦労するので、非常に使いにくいなと感じていました。しかし、しばらく使っていると、徐々にその便利さに気づいてきました。
+
+現在では、Markdownで記述した文書をパワーポイント形式に変換するなど、様々なところで使うようになっています。
+</code></pre>
+
+<p>表示：</p>
+
+<p>私は当初、Markdownには不慣れでした。記法をすぐ忘れてしまって、改行はできないし、文字修飾するにも一苦労するので、非常に使いにくいなと感じていました。しかし、しばらく使っていると、徐々にその便利さに気づいてきました。</p>
+
+<p>現在では、Markdownで記述した文書をパワーポイント形式に変換するなど、様々なところで使うようになっています。</p>
               
             </div>
           </div>
@@ -273,7 +308,7 @@
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://OkanGon.github.io/2015/05/cover-image-showcase/" data-tooltip="Cover image showcase">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://OkanGon.github.io/2016/01/hajimeni/" data-tooltip="はじめに">
           
             <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
             <i class="fa fa-angle-right"></i>
@@ -344,7 +379,7 @@
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://OkanGon.github.io/2015/05/cover-image-showcase/" data-tooltip="Cover image showcase">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://OkanGon.github.io/2016/01/hajimeni/" data-tooltip="はじめに">
           
             <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
             <i class="fa fa-angle-right"></i>
@@ -542,7 +577,7 @@
                   Feb 2, 2017
                 </span>
               </span>
-              <div class="media-content hide-xs font-merryweather"><p>トップページに表示されます。以下の記号まで。
+              <div class="media-content hide-xs font-merryweather"><p>ここの部分はトップページに表示されます。概要を書きます。
 </p></div>
             </div>
             <div style="clear:both;"></div>
@@ -561,6 +596,24 @@
                 </span>
               </span>
               <div class="media-content hide-xs font-merryweather"><p>イメージギャラリーのデモです。
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://okangon.github.io/2016/01/markdown-extras/">
+                <h3 class="media-heading">Markdown extras</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Hugoにはいくつかの便利な記法が追加されています。
 </p></div>
             </div>
             <div style="clear:both;"></div>
@@ -596,7 +649,13 @@
                   Jan 1, 2016
                 </span>
               </span>
-              <div class="media-content hide-xs font-merryweather"><p>HugoにおけるMarkdownの記法について、簡単に説明します。
+              <div class="media-content hide-xs font-merryweather"><blockquote>
+<p>Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつである。本来はプレーンテキスト形式で手軽に書いた文書からHTMLを生成するために開発されたものである。</p>
+
+<p><cite><a href="https://ja.wikipedia.org/wiki/Markdown">Wikipedia</a><cite></p>
+</blockquote>
+
+<p>HugoにおけるMarkdownの書き方について、簡単に説明します。
 </p></div>
             </div>
             <div style="clear:both;"></div>
@@ -606,32 +665,15 @@
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="https://okangon.github.io/2015/05/cover-image-showcase/">
-                <h3 class="media-heading">Cover image showcase</h3>
+              <a class="link-unstyled" href="https://okangon.github.io/2016/01/hajimeni/">
+                <h3 class="media-heading">はじめに</h3>
               </a>
               <span class="media-meta">
                 <span class="media-date text-small">
-                  May 5, 2015
+                  Jan 1, 2016
                 </span>
               </span>
-              <div class="media-content hide-xs font-merryweather"></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://okangon.github.io/2015/03/highlighted-code-showcase/">
-                <h3 class="media-heading">highlighted code showcase</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Mar 3, 2015
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><p>Tranquilpeak Hugo theme have its own theme to highlight source code. It&rsquo;s based on GitHub theme: simple and elegant. Check out how it sublimate source codes.
+              <div class="media-content hide-xs font-merryweather"><p>作成手順を以下に説明します。（プライベート用です。他の方は見てもよくわからないと思います）
 </p></div>
             </div>
             <div style="clear:both;"></div>
@@ -645,7 +687,7 @@
          data-message-zero="no post found"
          data-message-one="1 post found"
          data-message-other="{n} posts found">
-         15 posts found
+         13 posts found
       </p>
     </div>
   </div>

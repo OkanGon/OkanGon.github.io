@@ -19,15 +19,46 @@
     </item>
     
     <item>
+      <title>Markdown extras</title>
+      <link>https://okangon.github.io/2016/01/markdown-extras/</link>
+      <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://okangon.github.io/2016/01/markdown-extras/</guid>
+      <description>&lt;p&gt;Hugoにはいくつかの便利な記法が追加されています。
+&lt;/p&gt;
+
+&lt;h1 id=&#34;タスクリスト&#34;&gt;タスクリスト&lt;/h1&gt;
+
+&lt;p&gt;HugoはGitHubスタイルのタスクリストをサポートしています。&lt;/p&gt;
+
+&lt;p&gt;記法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; - [ ] a task list item
+ - [ ] list syntax required
+ - [ ] incomplete
+ - [x] completed
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; a task list item&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; list syntax required&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; incomplete&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; completed&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>Markdown syntax 02</title>
       <link>https://okangon.github.io/2016/01/markdown-syntax-02/</link>
-      <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://okangon.github.io/2016/01/markdown-syntax-02/</guid>
       <description>&lt;p&gt;引き続き、HugoにおけるMarkdownの記法について、簡単に説明します。
 &lt;/p&gt;
 
-&lt;!--toc--&gt;
+&lt;p&gt;今回は、見出し／文字修飾／リストなど基本的は記法を説明します。&lt;/p&gt;
 
 &lt;h1 id=&#34;見出し&#34;&gt;見出し&lt;/h1&gt;
 
@@ -222,7 +253,7 @@
 &lt;h1 id=&#34;水平線&#34;&gt;水平線&lt;/h1&gt;
 
 &lt;p&gt;記法：
-&lt;code&gt;- - -&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;-[空白]-[空白]-&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;表示：&lt;/p&gt;
 
@@ -234,15 +265,21 @@
     <item>
       <title>Markdown syntax 01</title>
       <link>https://okangon.github.io/2016/01/markdown-syntax-01/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://okangon.github.io/2016/01/markdown-syntax-01/</guid>
-      <description>&lt;p&gt;HugoにおけるMarkdownの記法について、簡単に説明します。
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつである。本来はプレーンテキスト形式で手軽に書いた文書からHTMLを生成するために開発されたものである。&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/Markdown&#34;&gt;Wikipedia&lt;/a&gt;&lt;cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;HugoにおけるMarkdownの書き方について、簡単に説明します。
 &lt;/p&gt;
 
 &lt;h1 id=&#34;誤った改行&#34;&gt;誤った改行&lt;/h1&gt;
 
-&lt;p&gt;最初、Markdownの記法では改行すらままならず、いらいらします。以下のように表記しても改行されません。&lt;/p&gt;
+&lt;p&gt;最初、Markdownで記述すると、改行すらままならず、いらいらします。以下のように表記しても改行されません。&lt;/p&gt;
 
 &lt;p&gt;記法：&lt;/p&gt;
 
@@ -257,7 +294,7 @@
 
 &lt;h1 id=&#34;正しい改行&#34;&gt;正しい改行&lt;/h1&gt;
 
-&lt;p&gt;以下が正しい記法です。私は空白×2は分かりにくいので、&lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt;を使うことが多いです。&lt;/p&gt;
+&lt;p&gt;以下が正しい記法です。空白×2は分かりにくいので、私は&lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt;を使うことが多いです。&lt;/p&gt;
 
 &lt;p&gt;記法1:&lt;/p&gt;
 
@@ -277,7 +314,24 @@
 
 &lt;p&gt;表示：&lt;/p&gt;
 
-&lt;p&gt;1行目の内容。&lt;br&gt;2行目の内容。&lt;br&gt;&lt;/p&gt;</description>
+&lt;p&gt;1行目の内容。&lt;br&gt;2行目の内容。&lt;br&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;段落&#34;&gt;段落&lt;/h1&gt;
+
+&lt;p&gt;空白行をあけることで、段落を分けることができます。&lt;/p&gt;
+
+&lt;p&gt;記法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;私は当初、Markdownには不慣れでした。記法をすぐ忘れてしまって、改行はできないし、文字修飾するにも一苦労するので、非常に使いにくいなと感じていました。しかし、しばらく使っていると、徐々にその便利さに気づいてきました。
+
+現在では、Markdownで記述した文書をパワーポイント形式に変換するなど、様々なところで使うようになっています。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
+
+&lt;p&gt;私は当初、Markdownには不慣れでした。記法をすぐ忘れてしまって、改行はできないし、文字修飾するにも一苦労するので、非常に使いにくいなと感じていました。しかし、しばらく使っていると、徐々にその便利さに気づいてきました。&lt;/p&gt;
+
+&lt;p&gt;現在では、Markdownで記述した文書をパワーポイント形式に変換するなど、様々なところで使うようになっています。&lt;/p&gt;</description>
     </item>
     
   </channel>

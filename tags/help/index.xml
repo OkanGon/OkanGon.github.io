@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Help on OkanGon</title>
+    <link>https://okangon.github.io/tags/help/index.xml</link>
+    <description>Recent content in Help on OkanGon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://okangon.github.io/tags/help/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>はじめに</title>
+      <link>https://okangon.github.io/2016/01/hajimeni/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://okangon.github.io/2016/01/hajimeni/</guid>
+      <description>&lt;p&gt;作成手順を以下に説明します。（プライベート用です。他の方は見てもよくわからないと思います）
+&lt;/p&gt;
+
+&lt;h1 id=&#34;手順&#34;&gt;手順&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://OkanGon.github.io/img/shortcut_okangon_prompt.jpg&#34; alt=&#34;OkanGon用&#34; /&gt;をダブルクリックする。&lt;br&gt;&lt;br&gt;
+&lt;img src=&#34;https://OkanGon.github.io/img/okangon_prompt_01.jpg&#34; alt=&#34;DOSプロンプト01&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hugo-new abcdef&lt;/code&gt;で、&lt;code&gt;content\post\abcdef.md&lt;/code&gt;を作成し、Haroopdというエディタが起動します。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo-server&lt;/code&gt;で、サーバーが起動し、ブラウザで作成したサイトを表示します。&lt;/li&gt;
+&lt;li&gt;うまい具合にできたら、&lt;code&gt;hugo-git&lt;/code&gt;でGiHubにアップロードします。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

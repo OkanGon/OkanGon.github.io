@@ -79,16 +79,8 @@
 &lt;h1 id=&#34;五反田&#34;&gt;五反田&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://tabelog.com/tokyo/A1316/A131603/13181277/dtlrvwlst/&#34;&gt;五反田漁師バル&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;肉も食べれるハイコスパな魚介系バル&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://tabelog.com/tokyo/A1316/A131603/13052717/&#34;&gt;サンフラワー&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ベトナム料理&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tabelog.com/tokyo/A1316/A131603/13181277/dtlrvwlst/&#34;&gt;五反田漁師バル&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tabelog.com/tokyo/A1316/A131603/13052717/&#34;&gt;サンフラワー&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;大井町&#34;&gt;大井町&lt;/h1&gt;
@@ -130,24 +122,10 @@
       <pubDate>Sun, 19 Feb 2017 01:49:00 +0000</pubDate>
       
       <guid>https://okangon.github.io/2017/02/test01/</guid>
-      <description>&lt;p&gt;トップページに表示されます。以下の記号まで。
+      <description>&lt;p&gt;ここの部分はトップページに表示されます。概要を書きます。
 &lt;/p&gt;
 
-&lt;p&gt;本文はここからです。&lt;/p&gt;
-
-&lt;h2 id=&#34;注意する点&#34;&gt;注意する点&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;コロン:の後は空白を入れること&lt;/li&gt;
-&lt;li&gt;dateは書き直すこと&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;タイトル&#34;&gt;タイトル&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A&lt;/li&gt;
-&lt;li&gt;B&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;本文はここからです。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -161,15 +139,46 @@
     </item>
     
     <item>
+      <title>Markdown extras</title>
+      <link>https://okangon.github.io/2016/01/markdown-extras/</link>
+      <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://okangon.github.io/2016/01/markdown-extras/</guid>
+      <description>&lt;p&gt;Hugoにはいくつかの便利な記法が追加されています。
+&lt;/p&gt;
+
+&lt;h1 id=&#34;タスクリスト&#34;&gt;タスクリスト&lt;/h1&gt;
+
+&lt;p&gt;HugoはGitHubスタイルのタスクリストをサポートしています。&lt;/p&gt;
+
+&lt;p&gt;記法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; - [ ] a task list item
+ - [ ] list syntax required
+ - [ ] incomplete
+ - [x] completed
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; a task list item&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; list syntax required&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; incomplete&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; completed&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>Markdown syntax 02</title>
       <link>https://okangon.github.io/2016/01/markdown-syntax-02/</link>
-      <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://okangon.github.io/2016/01/markdown-syntax-02/</guid>
       <description>&lt;p&gt;引き続き、HugoにおけるMarkdownの記法について、簡単に説明します。
 &lt;/p&gt;
 
-&lt;!--toc--&gt;
+&lt;p&gt;今回は、見出し／文字修飾／リストなど基本的は記法を説明します。&lt;/p&gt;
 
 &lt;h1 id=&#34;見出し&#34;&gt;見出し&lt;/h1&gt;
 
@@ -364,7 +373,7 @@
 &lt;h1 id=&#34;水平線&#34;&gt;水平線&lt;/h1&gt;
 
 &lt;p&gt;記法：
-&lt;code&gt;- - -&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;-[空白]-[空白]-&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;表示：&lt;/p&gt;
 
@@ -376,15 +385,21 @@
     <item>
       <title>Markdown syntax 01</title>
       <link>https://okangon.github.io/2016/01/markdown-syntax-01/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://okangon.github.io/2016/01/markdown-syntax-01/</guid>
-      <description>&lt;p&gt;HugoにおけるMarkdownの記法について、簡単に説明します。
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつである。本来はプレーンテキスト形式で手軽に書いた文書からHTMLを生成するために開発されたものである。&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/Markdown&#34;&gt;Wikipedia&lt;/a&gt;&lt;cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;HugoにおけるMarkdownの書き方について、簡単に説明します。
 &lt;/p&gt;
 
 &lt;h1 id=&#34;誤った改行&#34;&gt;誤った改行&lt;/h1&gt;
 
-&lt;p&gt;最初、Markdownの記法では改行すらままならず、いらいらします。以下のように表記しても改行されません。&lt;/p&gt;
+&lt;p&gt;最初、Markdownで記述すると、改行すらままならず、いらいらします。以下のように表記しても改行されません。&lt;/p&gt;
 
 &lt;p&gt;記法：&lt;/p&gt;
 
@@ -399,7 +414,7 @@
 
 &lt;h1 id=&#34;正しい改行&#34;&gt;正しい改行&lt;/h1&gt;
 
-&lt;p&gt;以下が正しい記法です。私は空白×2は分かりにくいので、&lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt;を使うことが多いです。&lt;/p&gt;
+&lt;p&gt;以下が正しい記法です。空白×2は分かりにくいので、私は&lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt;を使うことが多いです。&lt;/p&gt;
 
 &lt;p&gt;記法1:&lt;/p&gt;
 
@@ -419,25 +434,45 @@
 
 &lt;p&gt;表示：&lt;/p&gt;
 
-&lt;p&gt;1行目の内容。&lt;br&gt;2行目の内容。&lt;br&gt;&lt;/p&gt;</description>
+&lt;p&gt;1行目の内容。&lt;br&gt;2行目の内容。&lt;br&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;段落&#34;&gt;段落&lt;/h1&gt;
+
+&lt;p&gt;空白行をあけることで、段落を分けることができます。&lt;/p&gt;
+
+&lt;p&gt;記法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;私は当初、Markdownには不慣れでした。記法をすぐ忘れてしまって、改行はできないし、文字修飾するにも一苦労するので、非常に使いにくいなと感じていました。しかし、しばらく使っていると、徐々にその便利さに気づいてきました。
+
+現在では、Markdownで記述した文書をパワーポイント形式に変換するなど、様々なところで使うようになっています。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;表示：&lt;/p&gt;
+
+&lt;p&gt;私は当初、Markdownには不慣れでした。記法をすぐ忘れてしまって、改行はできないし、文字修飾するにも一苦労するので、非常に使いにくいなと感じていました。しかし、しばらく使っていると、徐々にその便利さに気づいてきました。&lt;/p&gt;
+
+&lt;p&gt;現在では、Markdownで記述した文書をパワーポイント形式に変換するなど、様々なところで使うようになっています。&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Cover image showcase</title>
-      <link>https://okangon.github.io/2015/05/cover-image-showcase/</link>
-      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      <title>はじめに</title>
+      <link>https://okangon.github.io/2016/01/hajimeni/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://okangon.github.io/2015/05/cover-image-showcase/</guid>
-      <description>&lt;p&gt;Tranquilpeak integrate a unique &amp;ldquo;cover image&amp;rdquo; feature. Open this post to see how this feature sublimate your article.
+      <guid>https://okangon.github.io/2016/01/hajimeni/</guid>
+      <description>&lt;p&gt;作成手順を以下に説明します。（プライベート用です。他の方は見てもよくわからないと思います）
+&lt;/p&gt;
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.
-Sed lorem felis, congue non fringilla eu, aliquam eu eros. Curabitur orci libero, mollis sed semper vitae, adipiscing in lectus. Aenean non egestas odio. Donec sollicitudin nisi quis lorem gravida, in pharetra mauris fringilla. Duis sit amet faucibus dolor, id aliquam neque. In egestas, odio gravida tempor dictum, mauris felis faucibus purus, sit amet commodo lacus diam vitae est. Ut ut quam eget massa semper sodales. Aenean non ipsum cursus, blandit lectus in, ornare odio. Curabitur ultrices porttitor vulputate.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.&lt;/p&gt;
+&lt;h1 id=&#34;手順&#34;&gt;手順&lt;/h1&gt;
 
-&lt;p&gt;Sed lorem felis, congue non fringilla eu, aliquam eu eros. Curabitur orci libero, mollis sed semper vitae, adipiscing in lectus. Aenean non egestas odio. Donec sollicitudin nisi quis lorem gravida, in pharetra mauris fringilla. Duis sit amet faucibus dolor, id aliquam neque. In egestas, odio gravida tempor dictum, mauris felis faucibus purus, sit amet commodo lacus diam vitae est. Ut ut quam eget massa semper sodales. Aenean non ipsum cursus, blandit lectus in, ornare odio. Curabitur ultrices porttitor vulputate.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://OkanGon.github.io/img/shortcut_okangon_prompt.jpg&#34; alt=&#34;OkanGon用&#34; /&gt;をダブルクリックする。&lt;br&gt;&lt;br&gt;
+&lt;img src=&#34;https://OkanGon.github.io/img/okangon_prompt_01.jpg&#34; alt=&#34;DOSプロンプト01&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Sed lorem felis, congue non fringilla eu, aliquam eu eros. Curabitur orci libero, mollis sed semper vitae, adipiscing in lectus. Aenean non egestas odio. Donec sollicitudin nisi quis lorem gravida, in pharetra mauris fringilla. Duis sit amet faucibus dolor, id aliquam neque. In egestas, odio gravida tempor dictum, mauris felis faucibus purus, sit amet commodo lacus diam vitae est. Ut ut quam eget massa semper sodales. Aenean non ipsum cursus, blandit lectus in, ornare odio. Curabitur ultrices porttitor vulputate.&lt;/p&gt;</description>
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hugo-new abcdef&lt;/code&gt;で、&lt;code&gt;content\post\abcdef.md&lt;/code&gt;を作成し、Haroopdというエディタが起動します。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo-server&lt;/code&gt;で、サーバーが起動し、ブラウザで作成したサイトを表示します。&lt;/li&gt;
+&lt;li&gt;うまい具合にできたら、&lt;code&gt;hugo-git&lt;/code&gt;でGiHubにアップロードします。&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -3291,42 +3326,6 @@ dignissim ultrices libero. Sed imperdiet urna et quam ultrices tincidunt nec ac 
 &lt;div class=&#34;main-content-wrap&#34;&gt;
 
 &lt;p&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hidden social section showcase</title>
-      <link>https://okangon.github.io/2014/08/hidden-social-section-showcase/</link>
-      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://okangon.github.io/2014/08/hidden-social-section-showcase/</guid>
-      <description>&lt;p&gt;This post is used to show how a site looks if the social section is hidden.
-&lt;/p&gt;
-
-&lt;p&gt;In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hidden tag section showcase</title>
-      <link>https://okangon.github.io/2014/08/hidden-tag-section-showcase/</link>
-      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://okangon.github.io/2014/08/hidden-tag-section-showcase/</guid>
-      <description>&lt;p&gt;This post is used to show how a site looks if the tag section is hidden.
-&lt;/p&gt;
-
-&lt;p&gt;In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hidden pagination showcase</title>
-      <link>https://okangon.github.io/2014/08/hidden-pagination-showcase/</link>
-      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://okangon.github.io/2014/08/hidden-pagination-showcase/</guid>
-      <description>&lt;p&gt;This post is used to show how a site looks if the pagination is hidden.
-&lt;/p&gt;
-
-&lt;p&gt;In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.&lt;/p&gt;</description>
     </item>
     
     <item>
